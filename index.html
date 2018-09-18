@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <aside id="theNav">
+            <ul>
+                <i class="far fa-address-book"></i>
+                <li id="homepage">
+                    <h3 id="simplicity">Simplicity</h3>
+                </li>
+                <li id="linkOne">Print</li>
+                <li id="linkTwo">Verify</li>
+                <li id="linkThree">Lookup</li>
+                <li id="linkFour">Contains</li>
+                <li id="linkFive">Update</li>
+                <li id="linkSix">Add</li>
+                <li id="linkSeven">Delete</li>
+                <li id="linkEight">Department</li>
+            </ul>
+        </aside>
+        <div id="container">
+            <form class="show" id="theTitle">
+                <h1 id="welcome">WELCOME TO
+                    <a id="simple">SIMPLICITY</a>
+                </h1>
+                <p id="miniWelcome">The Minimalists Directory.</p>
+            </form>
+            <form id="verify">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="verifyInput" placeholder="Name" autocomplete="off" />
+                <button class="submit" id="btVerify">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <form id="lookup">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="lookupInput" placeholder="Name" autocomplete="off" />
+                <button class="submit" id="btLookup">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <form id="contains">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="containsInput" placeholder="Name" autocomplete="off" />
+                <button class="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <form id="update">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="nameUpdate" placeholder="name" autocomplete="off" />
+                <br />
+                <input type="text" id="offUpdate" placeholder="Office Number" autocomplete="off" />
+                <br />
+                <input type="text" id="phoneUpdate" placeholder="Phone Number" autocomplete="off" />
+                <br />
+                <input type="text" id="deptUpdate" placeholder="Department" autocomplete="off" />
+                <button class="submit" id="btUpdate"><i class="fas fa-search"></i></button>
+            </form>
+            <form id="add">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="nameAdd" placeholder="Name" autocomplete="off" />
+                <br />
+                <input type="text" id="offAdd" placeholder="Office Number" autocomplete="off" />
+                <br />
+                <input type="text" id="phoneAdd" placeholder="Phone Number" autocomplete="off" />
+                <br />
+                <input type="text" id="deptAdd" placeholder="Department" autocomplete="off" />
+                <button class="submit" id="btAdd"><i class="fas fa-search"></i></button>
+            </form>
+            <form id="delete">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="deleteName" placeholder="Name" autocomplete="off" />
+                <button class="submit" id="btDelete"><i class="fas fa-search"></i></button>
+            </form>
+            <form id="department">
+                <h3 id="miniWelcome1">The Minimalists Directory.</h3>
+                <input type="text" id="deptInput" placeholder="Deprtment Name" autocomplete="off" />
+                <button class="submit" id="btDepartment"><i class="fas fa-search"></i></button>
+            </form>
+
+            <div id="users">
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

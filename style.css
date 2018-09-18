@@ -1,0 +1,125 @@
+    body {
+        height: 98vh;
+        font-family: Monstserrat;
+    }
+
+    main {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 90px auto;
+        grid-column-gap: 12px;
+    }
+
+    input[type=text] {
+        border-radius: 4px;
+    }
+
+    aside{
+        background-color: black;
+        color: white;
+        grid-row: span 1;
+        grid-column: 1;
+        margin: 0px;
+    }
+
+    i{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+
+    #simplicity{
+        color: yellow;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-top: 200px;
+    }
+
+    li{
+        display: block;
+        width: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    #theTitle{
+        padding-top: 280px;
+        text-align: center;
+    }
+
+    #welcome{
+        padding-bottom: 10px;
+        font-size: 50px;
+        color: white;
+        opacity: 1;
+    }
+
+    #miniWelcome{
+        color: white;
+        font-size: 20px;
+    }
+
+    #miniWelcome1{
+        color: white;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    #simple{
+        color: yellow
+    }
+
+    #container{
+        align-content: center;
+        align-items: center;
+        position: relative;   
+    }
+
+    #container::after{
+        content: "";
+        background-size: cover;
+        background-image: url('./bckg.jpg');
+        filter: brightness(30%);
+        position: absolute;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .fa-search{
+        font-size: 18px;
+    }
+
+    .fa-address-book{
+        padding-left: 17px;
+    }
+
+    form{
+        display: none;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        
+    }
+
+
+    .show{
+        display: block;
+    }
+
+    #users{
+        padding-top: 50px;
+        padding-left: 10px;
+        color: white;
+    }
+
+    .theOutput{
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
